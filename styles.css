@@ -1,0 +1,41 @@
+html {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: calc(1vh + 1rem);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  body {
+    display: flex;
+    font-size: clamp(1em, 1rem, 2em);
+    height: min(80vh, 100vh);
+  }
+
+  header {
+    width: min(30vw, 30%);
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    display: flex;
+    width: min(70vw, 70%);
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+}
