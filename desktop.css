@@ -1,0 +1,59 @@
+@media screen and (min-width: 601px) and (max-width: 1100) {
+}
+
+header {
+  background-color: fuchsia;
+  text-align: left;
+  width: clamp(601px, 50%, 1100px);
+  font-size: clamp(16px, 5vw, 16px);
+  margin: auto;
+  font-family: monospace, sans-serif;
+}
+
+ul {
+  padding-left: 0%;
+  padding-bottom: 5%;
+  margin: 0%;
+}
+
+ul > li {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-align: left;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: cadetblue;
+  width: clamp(601px, 50%, 1100px);
+  font-size: clamp(14px, 5vw, 14px);
+  margin: auto;
+  font-family: monospace, sans-serif;
+}
+
+section:first-child {
+  text-align: left;
+  margin: 2% 2% 2% 2%;
+}
+
+section:last-child {
+  text-align: left;
+  padding-right: 10%;
+}
+
+footer {
+  background-color: fuchsia;
+  text-align: center;
+  width: clamp(601px, 50%, 1100px);
+  font-size: clamp(14px, 5vw, 14px);
+  margin: auto;
+  font-family: monospace, sans-serif;
+}
+footer > p {
+  margin: 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
