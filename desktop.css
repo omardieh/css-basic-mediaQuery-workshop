@@ -35,13 +35,12 @@ main {
 }
 
 section:first-child {
-  text-align: left;
-  margin: 2% 2% 2% 2%;
+  flex: auto;
 }
 
 section:last-child {
   text-align: left;
-  padding-right: 10%;
+  padding-right: 20%;
 }
 
 footer {
