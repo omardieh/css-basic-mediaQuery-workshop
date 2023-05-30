@@ -1,0 +1,70 @@
+body {
+  color: black;
+  font-size: 16;
+  font-style: normal;
+}
+
+@media (max-width: 600px) {
+  * {
+    text-align: center;
+    font-size: 4vh;
+  }
+}
+
+header {
+  background-color: blue;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+nav {
+  background-color: lightblue;
+}
+
+@media (max-width: 600px) {
+  nav {
+    font-size: 8vw;
+  }
+}
+
+main {
+  border: #a9a9a9;
+  border-style: solid;
+  border-width: 1px;
+}
+
+@media (min-width: 601px) {
+  main {
+    background-color: bisque;
+  }
+}
+
+section {
+  background-color: bisque;
+}
+
+@media (min-width: 601px) {
+  section {
+    display: inline-block;
+    height: 45%;
+    width: 45%;
+    text-align: center;
+  }
+}
+
+footer {
+  background-color: pink;
+}
+
+@media (max-width: 600px) {
+  footer {
+    height: clamp(14px, 1.5vw, 18px);
+    width: calc(100% / 1.2);
+    padding-left: 14%;
+    padding-right: auto;
+  }
+}
