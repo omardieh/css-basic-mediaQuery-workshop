@@ -2,35 +2,87 @@
 <html>
   <head>
     <title>My Personal Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"　>
   </head>
   <body>
-    <header>
-      <h1>Welcome to My Personal Web Page</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+
+
+
+    
+
+<div class="Par">
+
+      <div class="c">
+        <header>
+          <h1>Welcome to My Personal Web Page</h1>      
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+
     <main>
-      <section>
-        <h2>About Me</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
-          diam vel eros aliquam, vitae consequat tellus lacinia. Donec convallis
-          magna leo.
-        </p>
-      </section>
+      <div class="A">
+        <section>
+          <h2>About Me</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
+            diam vel eros aliquam, vitae consequat tellus lacinia. Donec convallis
+            magna leo.
+          </p>
+        </section>
+      </div>
+
+     <div>
       <section>
         <h2>Contact Information</h2>
         <p>Email: info@example.com</p>
         <p>Phone: 123-456-7890</p>
       </section>
+     </div>
     </main>
+
+ 
+ </div> 
+
     <footer>
       <p>&copy; 2023 My Personal Web Page. All rights reserved.</p>
     </footer>
+
   </body>
+
+
+</div>
+
 </html>
+
+600px.
+<!-- 
+esponsive Design:
+
+Open the HTML file in a text editor.
+Create CSS file (styles.css) and link it in the <head> section of the HTML using the <link> tag.
+Apply default styles to the elements in the CSS (e.g., body, header, nav, main, section, footer).
+Add the following line inside the <head> section of the HTML to enable responsive behavior: <meta name="viewport" content="width=device-width, initial-scale=1.0">.
+Mobile First approach and Media Queries:
+
+Add a media query for screens with a maximum width of 600px.
+Inside the media query, modify the styles of the elements to make them more suitable for mobile devices (e.g., center-align the header, stack the navigation vertically).
+Typical Device Breakpoints CSS media queries:
+
+Add another media query for screens with a minimum width of 601px.
+Inside this media query, modify the styles of the elements to create a responsive layout for tablet and desktop screens (e.g., use flexbox to arrange the sections side by side).
+CSS units (px, em, rem, vw, vh, vmin, vmax):
+
+Apply appropriate CSS units to the styles of elements in the CSS file.
+Adjust the font sizes, margins, and paddings using different units (e.g., rem, vw, vh).
+CSS functions (calc(), min(), max(), clamp()):
+
+Utilize CSS functions to calculate values dynamically.
+Use the calc() function to perform arithmetic operations on CSS values (e.g., calc(1.5rem + 1vw)).
+Apply the clamp() function to set a range of acceptable values for a property (e.g., clamp(14px, 1.5vw, 18px)). -->

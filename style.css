@@ -1,0 +1,28 @@
+.Par {
+
+    background-color: #ddbdd6;
+    
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    display: block;
+
+}
+
+.c {
+    background-color: #eaeaea;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+.A {
+    background-color: #d4cfd2;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+
+}
