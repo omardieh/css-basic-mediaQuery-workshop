@@ -1,28 +1,301 @@
-.Par {
 
-    background-color: #ddbdd6;
+
+
+
+
+@media (max-width: 600px)  {
+  
+
+
+        body {
+          font-family: Helvetica, Arial, sans-serif;
+          background-color: #ddbdd6;
+        }
+
+        h2 {
+        font-size: 30px;
+        font-weight: bold;
+        }
+
+        p {
+        font-size: 16px;
+        }
+
+
+
+        .Pers {
+          display: block;
+          background-color: #ddbdd6;
+          /* justify-content: center;
+          align-items: center; */
+          padding: 5px;
+        }
+
+
+        .WC {
+          display: flex;
+          flex-flow: column nowrap;
+          /* justify-content:left; */
+          /* text-align: left; */
+          margin: 20px;
+        }
+        
+
+
+        header {
+          font-size: 20px;
+          font-weight:bolder;
+        }
+        
+        .navList {
+          display: flex;
+          flex-flow: row nowrap;
+          /* justify-content:center; */
+          /* align-items: center; */
+          text-align: left;
+          margin-bottom: 10px;
+        }
+        
+        
+        a {
+          text-decoration: none;
+          margin: 10px;
+          font-size: 20px;
+          color: rgb(0, 0, 0);
+        }
+
+        a:hover {
+          color: rgb(73, 73, 73);
+        }
+
+
+
+      .M {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content:space-between;
+          align-items:flex-start;
+          background-color: #ffffff;
+          margin: 10px;
+      }
+
+      .A {
+          width: 50%;
+          text-align: left;
+          /* margin: 20px 20px 20px 20px; */
+          padding: 20px;
+      }
+
+      /* margin　（上）　（右）　（下）　（左） */
+
+      .C {
+          width: 50%;
+          text-align: left;
+          /* margin: 20px 20px 20px 20px; */
+          padding: 20px;
+      }
+
+
+      .F {
+        text-align: center;
+      }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 601px) {
+
+
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+      background-color: #ddbdd6;
+    }
+
+    h2 {
+    font-size: 30px;
+    font-weight: bold;
+    }
+
+    p {
+    font-size: 16px;
+    }
+
+
+
+    .Pers {
+      display: block;
+      background-color: #ddbdd6;
+      /* justify-content: center;
+      align-items: center; */
+      padding: 5px;
+    }
+
+
+    .WC {
+      display: flex;
+      flex-flow: column nowrap;
+      /* justify-content:left; */
+      /* text-align: left; */
+      margin: 20px;
+    }
     
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    display: block;
 
-}
 
-.c {
-    background-color: #eaeaea;
+    header {
+      font-size: 20px;
+      font-weight:bolder;
+    }
+    
+    .navList {
+      display: flex;
+      flex-flow: row nowrap;
+      /* justify-content:center; */
+      /* align-items: center; */
+      text-align: left;
+      margin-bottom: 10px;
+    }
+    
+    
+    a {
+      text-decoration: none;
+      margin: 10px;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+    }
+
+    a:hover {
+      color: rgb(73, 73, 73);
+    }
+
+
+
+  .M {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content:space-between;
+      align-items:flex-start;
+      background-color: #ffffff;
+      margin: 10px;
+  }
+
+  .A {
+      width: 50%;
+      text-align: left;
+      /* margin: 20px 20px 20px 20px; */
+      padding: 20px;
+  }
+
+  /* margin　（上）　（右）　（下）　（左） */
+
+  .C {
+      width: 50%;
+      text-align: left;
+      /* margin: 20px 20px 20px 20px; */
+      padding: 20px;
+  }
+
+
+  .F {
     text-align: center;
-    margin: 10px;
-    padding: 20px;
+  }
+
+
+
+
+
+  body {
+      font-family: Helvetica, Arial, sans-serif;
+      background-color: #ddbdd6;
+  }
+
+  h2 {
     font-size: 30px;
+    font-weight: bold;
+  }
 
-}
+  p {
+    font-size: 16px;
+  }
 
-.A {
-    background-color: #d4cfd2;
+
+
+  .Pers {
+      display: block;
+      background-color: #ddbdd6;
+      justify-content: center;
+      align-items: center; */
+      padding: 5px;
+  } 
+
+
+
+
+  
+
+  .WC {
+      display: flex;
+      justify-content:center;
+      align-items: left;
+      text-align: left;
+    }
+    
+    header {
+      font-size: 30px;
+      font-weight:bolder;
+    }
+    
+    .navList {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content:left;
+      align-items: left;
+      text-align: left;
+      margin-bottom: 40px;
+    }
+    
+    
+    a {
+      text-decoration: none;
+      margin: 10px;
+    }
+
+
+
+
+
+  .M {
+      display: flex;
+      flex-flow: row nowrap;
+      background-color: #ffffff;
+      justify-content: center;
+      margin: 10px;
+  }
+
+  .A {
+      text-align: left;
+      margin: 20px 30px 0px 30px;
+      padding: 20px; 
+  } */
+
+  /* margin　（上）　（右）　（下）　（左） */
+
+  .C {
+      text-align: left;
+      margin: 0px 30px 20px 30px;
+      /* padding: 20px; */
+  } 
+
+  .F {
     text-align: center;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
+  }
 
 }
