@@ -2,7 +2,9 @@
 
 1. Open the HTML file in a text editor.
 2. Create CSS file (`styles.css`) and link it in the `<head>` section of the HTML using the `<link>` tag.
+
 3. Apply default styles to the elements in the CSS (e.g., `body`, `header`, `nav`, `main`, `section`, `footer`).
+
 4. Add the following line inside the `<head>` section of the HTML to enable responsive behavior: `<meta name="viewport" content="width=device-width, initial-scale=1.0">`.
 
 **Mobile First approach and Media Queries:**
